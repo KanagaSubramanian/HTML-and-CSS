@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scary site</title>
+	<meta charset="utf-8" viewport>
+	<link rel="stylesheet" type="text/css" href="scary.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="navigation">
+		<div class="logo">
+			<img class="logo_image"src="https://img.icons8.com/ios-glyphs/60/000000/jack-o-lantern.png"/ ><span>HALLOWEEN</span>
+		</div>
+		<div class="nav_menu">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Trick or Treat</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="bat">
+		<img src="https://img.icons8.com/ios-filled/500/000000/bat.png"/>
+	</div>
+	<div class="conatiner">
+		<h1>Trick or Treat</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+		
+	</div>
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+		  $(".logo_image").click(function(){
+		  	$('.nav_menu').toggle(function(){
+
+		  	});
+		  });
+		    });
+	</script>
+</body>
+</html>
